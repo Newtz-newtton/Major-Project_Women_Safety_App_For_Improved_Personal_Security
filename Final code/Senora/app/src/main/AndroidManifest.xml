@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teamDroiders.ladybuddy">
+
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="true"
+            android:label="AboutUs"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".MagBtnInst"
+            android:exported="true"
+            android:label="Detailed Instructions"
+            android:parentActivityName=".Magnetometer"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".SosInsructionsActivity"
+            android:exported="true"
+            android:label="SOS Instructions"
+            android:parentActivityName=".SmsActivity"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".Magnetometer"
+            android:exported="true"
+            android:label="Spy Camera Dectector"
+            android:parentActivityName=".ChoosenActivity"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".MagnoInst"
+            android:exported="true"
+            android:label="Manual Detection"
+            android:parentActivityName=".ChoosenActivity"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".Outside"
+            android:exported="true"
+            android:label="Outside Instructions"
+            android:parentActivityName=".MagnoInst"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ChangingRoom"
+            android:exported="true"
+            android:label="ChangingRoom Instructions"
+            android:parentActivityName=".MagnoInst"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".Bedroom"
+            android:exported="true"
+            android:label="Bedroom Instructions"
+            android:parentActivityName=".MagnoInst"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".Bathroom"
+            android:exported="true"
+            android:label="Bathroom Instructions"
+            android:parentActivityName=".MagnoInst"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".ChoosenActivity"
+            android:exported="true"
+            android:label="Detect Hidden Cameras"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".NewsActivity"
+            android:exported="true"
+            android:label="Women&apos;s News"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.New" />
+        <activity
+            android:name=".Instructions"
+            android:label="App Tour"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.New" />
+        <activity android:name=".webactivity" />
+        <activity
+            android:name=".SmsActivity"
+            android:label="Emergency Service"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.New" />
+        <activity android:name=".CurrentLocation" />
+        <activity android:name=".Flashing" />
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:exported="true"/>
+
+        <receiver android:name=".ScreenOnOffReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="number.action.string" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".ScreenOnOffBackgroundService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

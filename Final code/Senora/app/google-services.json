@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "417091779661",
+    "project_id": "login-registration-3bcc8",
+    "storage_bucket": "login-registration-3bcc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417091779661:android:24b6cc2fd526e6ae4bb004",
+        "android_client_info": {
+          "package_name": "com.example.loginregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417091779661-i861hdkc0vhtpuoptefe8sphnn511icn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vim1oICsb_B9CBhjzySKWVYJjburn5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417091779661-i861hdkc0vhtpuoptefe8sphnn511icn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417091779661:android:3b91eecb1ed455354bb004",
+        "android_client_info": {
+          "package_name": "com.example.shiva.try1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417091779661-i861hdkc0vhtpuoptefe8sphnn511icn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vim1oICsb_B9CBhjzySKWVYJjburn5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417091779661-i861hdkc0vhtpuoptefe8sphnn511icn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417091779661:android:ea9a5bbc69462f654bb004",
+        "android_client_info": {
+          "package_name": "com.teamDroiders.ladybuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417091779661-i861hdkc0vhtpuoptefe8sphnn511icn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vim1oICsb_B9CBhjzySKWVYJjburn5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417091779661-i861hdkc0vhtpuoptefe8sphnn511icn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
